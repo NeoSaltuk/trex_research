@@ -803,17 +803,5 @@ Mimari seçimi uygulamanın boyutuna, iş gereksinimlerine, ekip deneyimine, da�
 
 .NET backend geliştirme yalnızca C# ile kod yazmaktan ibaret değildir. Sürüm kontrolü, otomatik test ve dağıtım, HTTP ve API tasarımı, veritabanı modelleme, güvenlik, loglama ve sürdürülebilir mimari birlikte düşünülmelidir.
 
-Bir stajyer olarak en faydalı yaklaşım, her kavramı küçük bir örnek üzerinde denemektir: Git ile bir değişiklik kaydetmek, basit bir ASP.NET Core API oluşturmak, EF Core ile veri okumak, test yazmak ve hataları loglamak. Kavramların ne işe yaradığını anlayarak uygulamak, yalnızca tanımları ezberlemekten daha kalıcı bir öğrenme sağlar.
 
-## Küçük uygulama önerisi
 
-Bu konuları bir araya getirmek için basit bir **Product API** geliştirilebilir:
-
-- ASP.NET Core Web API ile ürün listeleme ve ekleme endpoint'leri.
-- EF Core ile ürünleri veritabanında saklama.
-- DTO ve model validation ile gelen veriyi kontrol etme.
-- Dependency Injection ile servisleri bağlama.
-- Merkezi hata yönetimi ve `ILogger` kullanma.
-- GitHub Actions ile derleme ve test pipeline'ı ekleme.
-
-Bu proje, rapordaki kavramların birbirleriyle nasıl bağlantılı olduğunu pratikte görmeye yardımcı olur.
